@@ -2,11 +2,11 @@ import { Todo } from "./types";
 
 export const initialTodos: Array<Todo> = [
   {
-    text: "Walk the dog",
-    complete: true
+    text: "Finish tutorial paper",
+    complete: false
   },
   {
-    text: "Make app",
-    complete: false
+    text: "Complete WSO frontend Onboarding",
+    complete: true
   }
 ];

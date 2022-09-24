@@ -24,8 +24,10 @@ const App: React.FC = () => {
 
   return (
     <React.Fragment>
-      <TodoList todos={todos} toggleComplete={toggleComplete} />
-      <AddTodoForm addTodo={addTodo} />
+      <h1>React Todo List</h1>
+
+      {/* PART 1: Add a TodoList and an AddTodoForm to the app. */}
+      
     </React.Fragment>
   );
 };
