@@ -9,8 +9,8 @@ A Williams student was planning on adding a todo list feature to WSO, but they n
 Clone the app:
 
 ```bash
-git clone https://github.com/nas5w/react-typescript-todo-app.git
-cd react-typescript-todo-app
+git clone https://github.com/WilliamsStudentsOnline/onboarding-frontend.git
+cd onboarding-frontend
 ```
 
 Install dependencies:
