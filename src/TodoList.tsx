@@ -16,10 +16,7 @@ export const TodoList: React.FC<TodoListProps> = ({
   return (
     <ul>
       {/* PART 2: Fill in the below code to render TodoListItems into the TodoList */}
-      {
-      todos.map(todo => (
-        <div>This is a placeholder for a TodoListItem.</div>
-      ))}
+      {/* Hint: Use the JavaScript map function on the todos array. */ }
     </ul>
   );
 };
