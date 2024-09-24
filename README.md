@@ -4,6 +4,33 @@
 
 A Williams student was planning on adding a todo list feature to WSO, but they never got around to finishing it. Your role is to fill in the missing code to finish the todo list. Follow the instructions below to learn how to complete the project.
 
+## Setting Up Your Dev Environment
+What you need:
+- A code editor (e.g. VSCode or GoLand)
+- Git
+- Node
+- Yarn
+
+You can download VSCode [here](https://code.visualstudio.com/)
+
+If you are on Mac I would highly recommend installing Homebrew (a package manager)
+- Copy the code on the [Brew Homepage](https://brew.sh/) to a terminal window
+- Now you have brew installed and can get packages by typing `brew [package name]`
+
+If you don't have Git installed:
+- If you have brew installed type `brew install git` in a terminal
+- If you don't follow the download instructions [here](https://git-scm.com/downloads) based on your OS
+
+If you don't have Node installed:
+- If you have brew installed type `brew install node` in a terminal
+- If you don't follow the download instructions [here](https://nodejs.org/en/) based on your OS
+
+If you don't have Yarn installed
+- If you have brew installed type `npm install --global yarn`  in a terminal
+
+Now you are ready for onboarding!
+
+
 ## Clone and Run the App
 
 Clone the app:
