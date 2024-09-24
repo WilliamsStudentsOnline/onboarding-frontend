@@ -26,7 +26,7 @@ If you don't have Node installed:
 - If you don't follow the download instructions [here](https://nodejs.org/en/) based on your OS
 
 If you don't have Yarn installed
-- If you have brew installed type `npm install --global yarn`  in a terminal
+- Type `npm install --global yarn`  in a terminal
 
 Now you are ready for onboarding!
 
