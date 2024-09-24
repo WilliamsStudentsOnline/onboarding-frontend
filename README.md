@@ -6,7 +6,7 @@ A Williams student was planning on adding a todo list feature to WSO, but they n
 
 ## Setting Up Your Dev Environment
 What you need:
-- A code editor (e.g. VSCode or GoLand)
+- A code editor
 - Git
 - Node
 - Yarn
