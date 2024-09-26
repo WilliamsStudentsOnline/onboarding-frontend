@@ -73,10 +73,29 @@ The previous owner of the project wants the `App` component to display a `TodoLi
 After successfully adding the `TodoList` and `AddTodoForm`, we notice that the `TodoListItems` are not properly rendering. Add code to the `TodoList.tsx` file to fix the TodoList and properly render the `TodoListItems`.
 
 ## Part 3
-We want to display the total number of completed items on the todo list out of the total number of items. Using [React hooks](https://reactjs.org/docs/hooks-overview.html), create a counter showing [total number of completed tasks] / [total number of tasks]. You will be able to complete this task by adding code only to `App.tsx`. Make sure that the counter is correct no matter what the intital tasks are.
+
+Let's enhance our todo list with a progress tracker! We'll add a counter that shows how many tasks are completed out of the total number of tasks.
+Your challenge:
+
+- Use React hooks to create this counter in `App.tsx`.
+- The counter should display as "[completed tasks] / [total tasks]".
+- Ensure the counter updates correctly when tasks are added or completed.
+- Make sure it works accurately regardless of the initial tasks.
+
+Hint: You'll need to use the useState hook and possibly useEffect. Think about when you need to recalculate the counts!
 
 ## Part 4
-Try coming up with something new to add to the site! Use the other components and code as a refernce for building your own and feel free to ask us questions.
+Time to let your creativity shine! Now that you've got the hang of React components and hooks, why not add your own feature to the todo list?
+Some ideas to get you started:
+
+- Add a due date to tasks
+- Implement task categories or priority levels
+- Create a "Clear Completed Tasks" button
+
+Remember:
+Use the existing components and code as reference
+Don't hesitate to look up React documentation or tutorials
+Feel free to ask us questions - we're here to help!
 
 ## Part 5
 Now that you've got a grasp of React basics, it's time to put your knowledge into practice! Head over to our [training repo](https://github.com/WilliamsStudentsOnline/wso-frontend-training.git) and try your hand at one of the projects.
