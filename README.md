@@ -85,7 +85,7 @@ Your challenge:
 Hint: You'll need to use the useState hook and possibly useEffect. Think about when you need to recalculate the counts!
 
 ## Part 4
-Time to let your creativity shine! Now that you've got the hang of React components and hooks, why not add your own feature to the todo list?
+Now that you've got the hang of React components and hooks, why not add your own feature to the todo list?
 Some ideas to get you started:
 
 - Add a due date to tasks
