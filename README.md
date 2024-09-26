@@ -75,5 +75,6 @@ After successfully adding the `TodoList` and `AddTodoForm`, we notice that the `
 ## Part 3
 We want to display the total number of completed items on the todo list out of the total number of items. Using [React hooks](https://reactjs.org/docs/hooks-overview.html), create a counter showing [total number of completed tasks] / [total number of tasks]. You will be able to complete this task by adding code only to `App.tsx`. Make sure that the counter is correct no matter what the intital tasks are.
 
-
+## Part 4
+Try coming up with something new to add to the site! Use the other components and code as a refernce for building your own and feel free to ask us questions.
 
