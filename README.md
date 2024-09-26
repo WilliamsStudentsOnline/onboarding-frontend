@@ -100,6 +100,9 @@ Feel free to ask us questions - we're here to help!
 ## Part 5
 Now that you've got a grasp of React basics, it's time to put your knowledge into practice! Head over to our [training repo](https://github.com/WilliamsStudentsOnline/wso-frontend-training.git) and try your hand at one of the projects.\
 \
+Click here for a react project that demonstrates some of this stuff:
+https://github.com/mlaws21/SoundQuest/blob/main/.backend/src/components/Main.jsx
+\
 Remember, learning to code is like learning a new language - practice makes perfect. Don't hesitate to use online resources when you're stuck. Googling is an essential skill in a developer's toolkit. However, we encourage you to attempt solutions on your own first. This approach helps reinforce your learning and improves problem-solving skills.\
 \
 Happy coding, and don't forget - every expert was once a beginner. Embrace the challenge and enjoy the learning process!
