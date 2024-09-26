@@ -25,9 +25,11 @@ const App: React.FC = () => {
   return (
     <React.Fragment>
       <h1>React Todo List</h1>
-
       {/* PART 1: Add a TodoList and an AddTodoForm to the app. */}
-      
+      {/* Ex: to add a component called TodoTest that has a prop test
+        Assume test is some const declared before
+        <TodoTest test={test} />
+      */}
     </React.Fragment>
   );
 };
