@@ -30,6 +30,49 @@ If you don't have Yarn installed
 
 Now you are ready for onboarding!
 
+## Installing the Correct Node Version
+
+To install Node Version Manager (NVM) on a Mac, follow these steps:
+
+1. Open Terminal on your Mac.
+
+2. Install Homebrew if you haven't already. You can do this by running:
+
+   ```
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+3. Once Homebrew is installed, use it to install NVM:
+
+   ```
+   brew install nvm
+   ```
+
+4. Create a directory for NVM:
+
+   ```
+   mkdir ~/.nvm
+   ```
+
+5. Add the following lines to your shell configuration file (e.g., ~/.bash_profile, ~/.zshrc, ~/.profile, or ~/.bashrc):
+
+   ```
+   export NVM_DIR="$HOME/.nvm"
+   [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+   ```
+
+6. Reload your shell configuration:
+
+   ```
+   source ~/.bash_profile  # or the appropriate file for your shell
+   ```
+
+7. Verify the installation:
+
+   ```
+   nvm --version
+   ```
 
 ## Clone and Run the App
 
