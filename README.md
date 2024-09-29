@@ -26,7 +26,7 @@ If you don't have Node installed:
 - If you don't follow the download instructions [here](https://nodejs.org/en/) based on your OS
 
 If you don't have Yarn installed
-- Type `npm install --global yarn`  in a terminal
+- Type `brew install yarn`
 
 Now you are ready for onboarding!
 
@@ -46,24 +46,36 @@ To install Node Version Manager (NVM) on a Mac, follow these steps:
    mkdir ~/.nvm
    ```
 
-3. Add the following lines to your shell configuration file (e.g., ~/.bash_profile, ~/.zshrc, ~/.profile, or ~/.bashrc):
+3. Update your shell configuration (copy as one command):
 
    ```
-   export NVM_DIR="$HOME/.nvm"
-   [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+   echo 'export NVM_DIR="$HOME/.nvm"
+   [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && \. "$(brew --prefix)/opt/nvm/nvm.sh"  # This loads nvm
+   [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion' >> ~/.zshrc
    ```
 
 4. Reload your shell configuration:
 
    ```
-   source ~/.bash_profile  # or the appropriate file for your shell
+   source ~/.zshrc
    ```
 
 5. Verify the installation:
 
    ```
    nvm --version
+   ```
+
+6. Install node 8 with nvm
+
+   ```
+   nvm install 8
+   ```
+
+7. Set node version
+
+   ```
+   nvm use 8
    ```
 
 ## Clone and Run the App
