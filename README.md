@@ -63,7 +63,7 @@ To install Node Version Manager (NVM) on a Mac, follow these steps:
 5. Verify the installation:
 
    ```
-   nvm --version
+   nvm -v
    ```
 
 6. Install node 8 with nvm
