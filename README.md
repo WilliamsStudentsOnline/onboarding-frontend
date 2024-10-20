@@ -21,10 +21,6 @@ If you don't have Git installed:
 - If you have brew installed type `brew install git` in a terminal
 - If you don't follow the download instructions [here](https://git-scm.com/downloads) based on your OS
 
-If you don't have Node installed:
-- If you have brew installed type `brew install node` in a terminal
-- If you don't follow the download instructions [here](https://nodejs.org/en/) based on your OS
-
 If you don't have Yarn installed
 - Type `brew install yarn`
 
